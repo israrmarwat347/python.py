@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-      // Your GitHub repository URL
+      // Your GitHub repository URL abc
         GIT_REPO = 'https://github.com/israrmarwat347/python.py.git'
         BRANCH = 'master' // Use the correct branch name where your Python script is located
     }
